@@ -3,12 +3,13 @@
   "version": "1.0.0",
   "description": "",
   "main": "input.js",
+  "author": "Oran",
+  "license": "ISC",
+  "repository": "git@github.com:OranTal01/notes-app-js.git",
   "scripts": {
     "dev-server": "webpack-dev-server --mode development",
     "build": "webpack --mode production"
   },
-  "author": "Oran",
-  "license": "ISC",
   "dependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
@@ -17,10 +18,10 @@
     "babel-polyfill": "^6.26.0",
     "babel-preset-env": "^1.7.0",
     "live-server": "^1.2.1",
+    "moment": "^2.22.1",
+    "uuid": "^3.2.1",
     "webpack": "^4.41.6",
     "webpack-cli": "^3.3.11",
-    "webpack-dev-server": "^3.10.3",
-    "moment": "^2.22.1",
-    "uuid": "^3.2.1"
+    "webpack-dev-server": "^3.10.3"
   }
 }
